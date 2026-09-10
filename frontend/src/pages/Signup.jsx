@@ -11,7 +11,7 @@ function Signup() {
         e.preventDefault();
 
         const response = await fetch(
-            "http://localhost:5000/api/auth/signup",
+            "https://social-post-c1bg.onrender.com/api/auth/signup",
             {
                 method: "POST",
                 headers: {

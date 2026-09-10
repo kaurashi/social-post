@@ -26,7 +26,7 @@ function CreatePost({ onPostCreated }) {
         try {
 
             const response = await fetch(
-                "http://localhost:5000/api/post",
+                "https://social-post-c1bg.onrender.com/api/post",
                 {
                     method: "POST",
                     headers: {

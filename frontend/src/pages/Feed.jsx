@@ -15,7 +15,7 @@ function Feed() {
     const getPosts = async () => {
         try {
             const response = await fetch(
-                "http://localhost:5000/api/post"
+                "https://social-post-c1bg.onrender.com/api/post"
             );
 
             const data = await response.json();
@@ -40,7 +40,7 @@ function Feed() {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/post/${postId}/like`,
+                `https://social-post-c1bg.onrender.com/api/post/${postId}/like`,
                 {
                     method: "PUT",
                     headers: {
@@ -76,7 +76,7 @@ function Feed() {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/post/${postId}/comment`,
+                `https://social-post-c1bg.onrender.com/api/post/${postId}/comment`,
                 {
                     method: "POST",
                     headers: {
