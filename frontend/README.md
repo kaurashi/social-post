@@ -225,8 +225,6 @@ PORT=5000
 JWT_SECRET=your_jwt_secret
 ```
 
-Do not commit the `.env` file to GitHub.
-
 ## Application Flow
 
 Signup
