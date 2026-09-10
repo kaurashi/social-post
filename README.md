@@ -37,9 +37,13 @@ A full-stack social media application where users can create posts, interact wit
 ### Database
 - MongoDB Atlas
 
+---
+
 ## Project Structure
 
-social-post-app/
+```
+
+social-post/
 
 ├── frontend/
 │   ├── src/
@@ -71,6 +75,10 @@ social-post-app/
     │
     ├── server.js
     └── package.json
+
+```
+
+---
 
 ## Authentication
 
