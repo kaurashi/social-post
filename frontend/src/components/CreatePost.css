@@ -1,0 +1,140 @@
+.create-post {
+    width: 100%;
+    max-width: 590px;
+    margin: 0 auto 22px;
+    padding: 22px 24px 20px;
+    background: #ffffff;
+    border-radius: 22px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+.create-post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #eeeeee;
+    color: #888;
+    font-size: 18px;
+    font-weight: 500;
+}
+.user-info {
+    margin-left: 12px;
+}
+.username {
+    margin: 0 0 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+}
+.handle {
+    font-size: 12px;
+    color: #888;
+}
+.close-btn {
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    color: #111;
+    font-size: 22px;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+.close-btn:hover {
+    color: #666;
+}
+.post-input {
+    width: 100%;
+    min-height: 80px;
+    padding: 8px 0 15px;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    outline: none;
+    resize: none;
+    background: #ffffff;
+    color: #222;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.post-input::placeholder {
+    color: #888;
+}
+.create-post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.icon-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.icon-btn {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+.icon-btn:hover {
+    background: #f1f1f1;
+}
+.post-button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 20px;
+    background: #111;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.post-button:hover {
+    background: #333;
+}
+
+.image-input {
+    width: 100%;
+    padding: 12px 0 15px;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    outline: none;
+    background: #ffffff;
+    color: #222;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.image-input::placeholder {
+    color: #888;
+}
+
+@media (max-width: 600px) {
+    .create-post {
+        padding: 18px;
+        border-radius: 18px;
+    }
+    .create-post-footer {
+        align-items: flex-end;
+    }
+    .icon-group {
+        gap: 0;
+    }
+    .post-button {
+        padding: 9px 18px;
+    }
+}
